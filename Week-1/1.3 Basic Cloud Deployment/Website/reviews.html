@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reviews | Soham AutoCare</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="loader"><div class="loader-ring"></div></div>
+    <div class="scroll-progress" id="scroll-progress"></div>
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 14h14l-1.2-3.2A2 2 0 0 0 15.9 10H8.1a2 2 0 0 0-1.9 1.4L5 14Zm2 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Zm10 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3ZM4 8h2l1.5 2h9l1.5-2h2l1 2v1H3v-1l1-2Z"/></svg></span>
+        <span>Soham AutoCare</span>
+      </a>
+      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="reviews.html" class="active">Reviews</a>
+        <a href="contact.html">Contact</a>
+        <a class="nav-cta" href="contact.html" style="color: black;">Book a Service</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero container reveal">
+        <div>
+          <p class="eyebrow">Client Reviews</p>
+          <h1>Trusted by drivers who value premium service and honest care.</h1>
+          <p>See what our customers say about the experience, quality, and reliability of Soham AutoCare.</p>
+        </div>
+        <div class="page-card reveal">
+          <h3>Customer satisfaction</h3>
+          <p>98% of our clients recommend our workshop for repairs, diagnostics, and service support.</p>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="section-title">
+          <div>
+            <p class="eyebrow">Stories from our clients</p>
+            <h2>What customers say about us</h2>
+          </div>
+          <button class="review-btn" id="view-all-reviews">View All</button>
+        </div>
+        <div class="review-shell">
+          <div class="review-track" id="review-track">
+            <article class="review-card review-slide-card reveal" data-title="Engine repair made easy" data-name="Arjun M." data-image="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1000&q=80" data-body="The team handled my engine issue quickly and explained every step clearly. I felt confident from start to finish.">
+              <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1000&q=80" alt="Luxury car on the road" />
+              <h3>Arjun M.</h3>
+              <p>“The team handled my engine issue quickly and explained every step clearly. I felt confident from start to finish.”</p>
+            </article>
+            <article class="review-card review-slide-card reveal" data-title="Smooth diagnostics and care" data-name="Nisha K." data-image="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1000&q=80" data-body="Excellent diagnostics and quality work. My car feels better than ever and the process was very smooth.">
+              <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1000&q=80" alt="Modern car interior" />
+              <h3>Nisha K.</h3>
+              <p>“Excellent diagnostics and quality work. My car feels better than ever and the process was very smooth.”</p>
+            </article>
+            <article class="review-card review-slide-card reveal" data-title="Transparent service every time" data-name="Rohan P." data-image="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1000&q=80" data-body="Professional staff, transparent pricing, and dependable service. I would definitely recommend Soham AutoCare.">
+              <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1000&q=80" alt="Dark premium car" />
+              <h3>Rohan P.</h3>
+              <p>“Professional staff, transparent pricing, and dependable service. I would definitely recommend Soham AutoCare.”</p>
+            </article>
+            <article class="review-card review-slide-card reveal" data-title="Battery service done fast" data-name="Meera S." data-image="https://images.unsplash.com/photo-1519643381401-22c77e60520e?auto=format&fit=crop&w=1000&q=80" data-body="The battery replacement process was quick, efficient, and handled with impressive attention to detail.">
+              <img src="https://images.unsplash.com/photo-1519643381401-22c77e60520e?auto=format&fit=crop&w=1000&q=80" alt="Workshop and vehicle" />
+              <h3>Meera S.</h3>
+              <p>“The battery replacement process was quick, efficient, and handled with impressive attention to detail.”</p>
+            </article>
+          </div>
+        </div>
+        <div class="review-controls">
+          <div class="dot-nav" id="review-dots">
+            <button class="active" aria-label="Review 1"></button>
+            <button aria-label="Review 2"></button>
+            <button aria-label="Review 3"></button>
+            <button aria-label="Review 4"></button>
+          </div>
+          <div class="slider-controls">
+            <button class="slider-btn" data-review="prev" aria-label="Previous review">←</button>
+            <button class="slider-btn" data-review="next" aria-label="Next review">→</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="review-gallery">
+        <div class="review-grid">
+          <article class="review-card reveal">
+            <h3>Arjun M.</h3>
+            <p>“Exceptional workmanship and thoughtful explanations for every step of the service.”</p>
+          </article>
+          <article class="review-card reveal">
+            <h3>Nisha K.</h3>
+            <p>“Fast appointments, honest recommendations, and very smooth communication.”</p>
+          </article>
+          <article class="review-card reveal">
+            <h3>Rohan P.</h3>
+            <p>“Reliable repairs and a premium experience from start to finish.”</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <div class="review-modal" id="review-modal" aria-hidden="true">
+      <div class="modal-card">
+        <button class="modal-close" aria-label="Close review">×</button>
+        <img id="modal-image" src="" alt="Customer review" />
+        <div class="modal-body">
+          <p class="eyebrow">Featured review</p>
+          <h3 id="modal-title">Customer Review</h3>
+          <p id="modal-name"></p>
+          <p id="modal-body"></p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-card footer-brand">
+          <h3>Soham AutoCare</h3>
+          <p>Premium car servicing, diagnostics, and dependable repair solutions designed for every driver.</p>
+          <div class="social-strip footer-social">
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="Facebook">👍</a>
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+        <div class="footer-card">
+          <h3>Quick Links</h3>
+          <ul class="footer-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-card">
+          <h3>Our Services</h3>
+          <ul class="footer-list">
+            <li>Engine Repair</li>
+            <li>Tyre Service</li>
+            <li>Brake Repair</li>
+            <li>Battery Service</li>
+            <li>Oil Change</li>
+            <li>Car Diagnostics</li>
+          </ul>
+        </div>
+        <div class="footer-card">
+          <h3>Contact Details</h3>
+          <ul class="footer-list">
+            <li>Mumbai, Maharashtra</li>
+            <li>+91 98765 43210</li>
+            <li>info@sohamautocare.com</li>
+            <li>Mon-Sat 9 AM – 7 PM</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> Soham AutoCare. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

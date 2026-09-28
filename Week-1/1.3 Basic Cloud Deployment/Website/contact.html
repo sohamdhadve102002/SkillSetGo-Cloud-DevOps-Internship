@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Soham AutoCare</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="loader"><div class="loader-ring"></div></div>
+    <div class="scroll-progress" id="scroll-progress"></div>
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 14h14l-1.2-3.2A2 2 0 0 0 15.9 10H8.1a2 2 0 0 0-1.9 1.4L5 14Zm2 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Zm10 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3ZM4 8h2l1.5 2h9l1.5-2h2l1 2v1H3v-1l1-2Z"/></svg></span>
+        <span>Soham AutoCare</span>
+      </a>
+      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a class="nav-cta" href="contact.html" style="color: black;">Book a Service</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero container reveal">
+        <div>
+          <p class="eyebrow">Contact Us</p>
+          <h1>Let’s talk about your next service appointment.</h1>
+          <p>Reach our team for inspections, repairs, maintenance, and premium automotive support.</p>
+        </div>
+        <div class="contact-card reveal">
+          <h3>Visit or call us</h3>
+          <p><strong>Location:</strong> Mumbai, Maharashtra</p>
+          <p><strong>Phone:</strong> +91 98765 43210</p>
+          <p><strong>Email:</strong> info@sohamautocare.com</p>
+          <p><strong>Hours:</strong> Mon-Sat 9:00 AM – 7:00 PM</p>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="contact-wrap">
+          <div class="contact-card reveal">
+            <h3>Request a Service</h3>
+            <form class="contact-form">
+              <label>Full Name<input type="text" name="name" placeholder="Your full name" /></label>
+              <label>Phone Number<input type="tel" name="phone" placeholder="Your phone number" /></label>
+              <label>Email Address<input type="email" name="email" placeholder="Your email" /></label>
+              <label>Select Service<select name="service"><option value="">Choose service</option><option>Engine Repair</option><option>Tyre Service</option><option>Brake Repair</option><option>Battery Service</option><option>Oil Change</option><option>Car Diagnostics</option></select></label>
+              <label>Message<textarea name="message" rows="5" placeholder="Tell us about your vehicle needs"></textarea></label>
+              <button class="btn btn-primary" type="submit">Submit Service Request</button>
+              <div class="form-note"></div>
+            </form>
+          </div>
+          <div class="contact-card reveal contact-side-card">
+            <div class="contact-media">
+              <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1100&q=80" alt="Car repair garage" />
+            </div>
+            <h3>Why choose us</h3>
+            <p>We provide reliable service, expert repairs, and a premium workshop experience for every customer.</p>
+            <div class="check-list">
+              <div class="check-item">Rapid appointment scheduling</div>
+              <div class="check-item">Transparent recommendations</div>
+              <div class="check-item">Professional support every step of the way</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-card footer-brand">
+          <h3>Soham AutoCare</h3>
+          <p>Premium car servicing, diagnostics, and dependable repair solutions designed for every driver.</p>
+          <div class="social-strip footer-social">
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="Facebook">👍</a>
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+        <div class="footer-card">
+          <h3>Quick Links</h3>
+          <ul class="footer-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-card">
+          <h3>Our Services</h3>
+          <ul class="footer-list">
+            <li>Engine Repair</li>
+            <li>Tyre Service</li>
+            <li>Brake Repair</li>
+            <li>Battery Service</li>
+            <li>Oil Change</li>
+            <li>Car Diagnostics</li>
+          </ul>
+        </div>
+        <div class="footer-card">
+          <h3>Contact Details</h3>
+          <ul class="footer-list">
+            <li>Mumbai, Maharashtra</li>
+            <li>+91 98765 43210</li>
+            <li>info@sohamautocare.com</li>
+            <li>Mon-Sat 9 AM – 7 PM</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> Soham AutoCare. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

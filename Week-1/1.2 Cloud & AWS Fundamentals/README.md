@@ -214,8 +214,9 @@ During this exercise, I learned:
 - AWS Budgets
 
 ---
-### 6. Final Structure
+### 6. 📂 Folder Structure
 
+```text
 1.2-Cloud-AWS-Fundamentals/
 │
 ├── README.md
