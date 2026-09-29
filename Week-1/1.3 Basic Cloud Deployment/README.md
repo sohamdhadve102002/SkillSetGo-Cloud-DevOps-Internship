@@ -42,6 +42,7 @@ The website contains multiple static pages along with CSS, JavaScript, and asset
 - `services.html` — Services Page
 - `reviews.html` — Reviews Page
 - `contact.html` — Contact Page
+- `error.html` — Error Page
 
 ### Website Resources
 
@@ -66,9 +67,24 @@ The website contains multiple static pages along with CSS, JavaScript, and asset
 │   │
 │   ├── about.html
 │   ├── contact.html
+│   ├── error.html
 │   ├── index.html
 │   ├── reviews.html
 │   └── services.html
+│
+├── Screenshots/
+│   │
+│   ├── 01-Website-Structure.png
+│   ├── 02-Region-Selection.png
+│   ├── 03-Bucket-Create-Step-1.png
+│   ├── 04-Bucket-Create-Step-2.png
+│   ├── 05-Bucket-Create-Step-3.png
+│   ├── 06-Upload-Files-Folder-Inside-Bucket.png
+│   ├── 07-Enable-Static-Website-Hosting.png
+│   ├── 08-Add-Bucket-Policy.png
+│   ├── 09-Website-Output-1.png
+│   ├── 10-Website-Output-2.png
+│   └── 11-Website-Full-Video.png
 │
 └── README.md
 ```
@@ -89,6 +105,7 @@ about.html
 services.html
 reviews.html
 contact.html
+error.html
 ```
 
 The required CSS, JavaScript, and asset files are stored inside their respective directories.
@@ -104,8 +121,9 @@ The following were checked:
 - Homepage
 - About page
 - Services page
-- Reviews page
 - Contact page
+- reviews page
+- error page
 - Navigation links
 - CSS styling
 - JavaScript functionality
@@ -122,7 +140,7 @@ An S3 bucket was created using the AWS Management Console.
 **Bucket Name:**
 
 ```text
-<YOUR-BUCKET-NAME>
+soham-basic-cloud-deployment-2026-931680508668-ap-south-1-an
 ```
 
 **AWS Region:**
@@ -213,7 +231,7 @@ After configuring Static Website Hosting, the S3 website endpoint was obtained f
 ### Live Website URL
 
 ```text
-<PASTE-YOUR-LIVE-S3-WEBSITE-URL-HERE>
+http://soham-basic-cloud-deployment-2026-931680508668-ap-south-1-an.s3-website.ap-south-1.amazonaws.com/
 ```
 
 Replace the placeholder with the actual AWS S3 website endpoint.
@@ -231,6 +249,7 @@ The following were tested:
 - Services page
 - Reviews page
 - Contact page
+- error page
 - Navigation
 - CSS styling
 - JavaScript
@@ -403,36 +422,17 @@ During this exercise, I learned:
 **Deliverable:** Live URL + Deployment Notes
 
 ### Live URL
-
 ```text
-<PASTE-YOUR-LIVE-S3-WEBSITE-URL-HERE>
+http://soham-basic-cloud-deployment-2026-931680508668-ap-south-1-an.s3-website.ap-south-1.amazonaws.com/
+```
+
+### Google Drive Screen-Recording Video URL
+```text
+https://drive.google.com/file/d/1BfsGAZk0IXsCm6JoBKT1KND_4dJekbhz/view?usp=sharing
 ```
 
 ---
 
-# 📂 Final Structure
-
-```text
-1.3-Basic-Cloud-Deployment/
-│
-├── Website/
-│   │
-│   ├── assets/
-│   │
-│   ├── css/
-│   │
-│   ├── js/
-│   │
-│   ├── about.html
-│   ├── contact.html
-│   ├── index.html
-│   ├── reviews.html
-│   └── services.html
-│
-└── README.md
-```
-
----
 
 # ✅ Status
 
