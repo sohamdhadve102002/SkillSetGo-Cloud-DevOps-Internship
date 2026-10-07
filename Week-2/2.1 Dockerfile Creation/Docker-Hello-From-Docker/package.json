@@ -1,0 +1,11 @@
+{
+  "name": "docker-week2-app",
+  "version": "1.0.0",
+  "description": "Docker Week 2 sample application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Soham",
+  "license": "MIT"
+}
