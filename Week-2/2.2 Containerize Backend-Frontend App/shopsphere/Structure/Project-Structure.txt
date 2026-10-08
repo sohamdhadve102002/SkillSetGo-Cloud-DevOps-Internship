@@ -1,0 +1,58 @@
+shopsphere/
+│
+├── database/
+│   └── schema.sql
+│
+├── backend/
+│   ├── .env
+│   ├── package.json
+│   ├── server.js
+│   │
+│   ├── config/
+│   │   └── db.js
+│   │
+│   ├── middleware/
+│   │   └── auth.js
+│   │
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── productController.js
+│   │   ├── orderController.js
+│   │   └── adminController.js
+│   │
+│   └── routes/
+│       ├── auth.js
+│       ├── products.js
+│       ├── categories.js
+│       ├── orders.js
+│       └── admin.js
+│
+└── frontend/
+    ├── package.json
+    ├── index.html
+    ├── vite.config.js
+    │
+    └── src/
+        ├── main.jsx
+        ├── App.jsx
+        ├── styles.css
+        │
+        ├── components/
+        │   ├── Navbar.jsx
+        │   └── ProductCard.jsx
+        │
+        ├── context/
+        │   └── AuthContext.jsx
+        │
+        ├── services/
+        │   └── api.js
+        │
+        └── pages/
+            ├── Home.jsx
+            ├── Products.jsx
+            ├── ProductDetails.jsx
+            ├── Login.jsx
+            ├── Register.jsx
+            ├── Cart.jsx
+            ├── Orders.jsx
+            └── Admin.jsx
