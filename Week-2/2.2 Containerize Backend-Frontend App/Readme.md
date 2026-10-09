@@ -294,31 +294,31 @@ Add screenshots to the `Screenshots/` directory and update the filenames below t
 
 Shows the frontend, backend, and MySQL containers running.
 
-![Docker Containers](Screenshots/docker-containers.png)
+![Docker Containers](Screenshots/01-Docker-Containers.png)
 
 #### Screenshot 2 — Frontend Website
 
 Shows the ShopSphere website running in the browser.
 
-![ShopSphere Frontend](Screenshots/shopsphere-frontend.png)
+![ShopSphere Frontend](Screenshots/02-shopsphere-frontend-2.png)
 
 #### Screenshot 3 — Registration Page
 
 Shows the registration page of the ShopSphere application.
 
-![Registration Page](Screenshots/registration-page.png)
+![Registration Page](Screenshots/03-Registration-Page.png)
 
 #### Screenshot 4 — Login Page
 
 Shows the login page and successful login, if captured.
 
-![Login Page](Screenshots/login-page.png)
+![Login Page](Screenshots/04-login-page.png)
 
 #### Screenshot 5 — Backend API Test
 
 Shows the backend API returning its expected response.
 
-![Backend API Test](Screenshots/backend-api-test.png)
+![Backend API Test](Screenshots/05-Backend-Api-Test.png)
 
 ### 12. Results
 
